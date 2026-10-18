@@ -3757,33 +3757,4 @@ end)
     return PopupFrame
 end
 
-local Window = Isotopia:Window({
-    Title = "Kittylol",
-    Icon = "rbxassetid://119371425382054",
-    Size = UDim2.fromOffset(648, 429),
-    HideSearchBar = false,
-    Corner = 15,
-    MainColor = Color3.fromRGB(255, 255, 255)
-})
-
-local Tab1 = Window:Tab({
-    Title = "Main",
-    Icon = "house"
-})
-
-local Tab2 = Window:Tab({
-    Title = "Players",
-    Icon = "user"
-})
-
-local Tab3 = Window:Tab({
-    Title = "World",
-    Icon = "earth"
-})
-
-Window:load()
-
-return Isotopiaab({Title = "World", Icon = "earth"})
-local Tab4 = Window:Tab({Title = "Desyncs", Icon = "skull"})
-
 return Isotopia
